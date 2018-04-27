@@ -1,0 +1,172 @@
+body{
+    font-family: 'Georgia', Times,'Times New Roman', serif;
+    background: url('Images/Background.png')
+}
+    
+
+.buttonFormat{
+    background-color: #fafafacb;
+    color: black;
+    border: 2.5px solid #585858;
+    text-align: center;
+    margin-left: -10px;
+}
+.panel-title{
+    text-align: center;
+}
+
+
+.container1{
+    border-radius: 5px;
+    background-color: #e4e4e4cb;
+    padding: -25px;
+    border: 3.5px solid #000000;
+    margin: 15px;
+}
+.mainParaHead{
+    margin-left: 7%;
+}
+.mainPara{
+    font-size: 16px;
+    margin-left: 7%;
+
+}
+
+.container-aboutme{
+    margin-top: -40px;
+
+}
+
+
+li{
+    margin-top: 10px;
+    margin-left: 45px;
+    font-size: 14px;
+}
+.factsHead{
+   
+    margin: 5%;
+}
+
+
+
+.image{
+    position: static;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-weight: 250 bold
+}
+
+h3{  
+    color: black;
+    text-align: left;
+    font-weight: 100;
+}
+h3.right{
+    margin-left: 15px;
+}
+
+input[type="text"], textarea{
+    width: 100%;
+    padding: 1px;
+    border: 2.5px solid #000000;
+    border-radius: 5px solid;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    background: url('Images/Background.png');
+    box-sizing: border-box;
+}
+.nav{
+    background-color: rgba(252, 252, 252, 0.534);
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    border: 1.5px solid #000000
+
+}
+
+.nav > li{
+    display: inline-block;
+    width: 15%;
+}
+
+.fa{padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+}
+navbar-right{
+    display: inline;
+}
+
+.page-header{
+    text-indent: 25px;
+}
+
+.panel-default{ 
+    margin-bottom: 5%;
+    margin-left: 5%;
+
+}
+
+.container-social{
+    position: relative;
+    right: 7%;
+    margin-bottom: 3%
+   
+    /*top: 99%;
+    left: 5%;*/
+  
+}
+p{
+    margin-top: 5px;
+}
+@media(max-width: 1150px){
+    li{
+        text-align: center;
+        margin-left: 10%
+    }
+    .mainPara{
+        text-align: center;
+        margin-left: 10%
+        
+    }
+    .mainParaHead{
+        text-align: center;
+        margin-left: 13%
+
+    }
+}
+
+@media(max-width: 980px){
+    li{font-size: 17px;
+        };
+    .mainPara{font-size: 18px;
+            
+};
+    .image{position: relative;
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+}
+
+@media(max-width: 768px){
+        li{
+            font-size: 18px; 
+            line-height: 1.25;
+        }
+        .mainPara{
+            font-size: 19.5px;
+        }
+    }
+       
+      
+
+
+
+    
